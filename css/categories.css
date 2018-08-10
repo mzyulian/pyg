@@ -1,0 +1,26 @@
+body {
+  line-height: normal;
+}
+
+.pyg_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.pyg_content .left {
+  width: 1rem;
+  font-size: 0.22rem;
+  overflow: hidden;
+  background-color: yellowgreen;
+}
+
+.pyg_content .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: rebeccapurple;
+  overflow: scroll;
+}
+/*# sourceMappingURL=categories.css.map */

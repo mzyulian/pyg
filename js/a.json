@@ -1,0 +1,156 @@
+{
+    "data": [
+      {
+        "group_img": "http://image4.suning.cn/uimg/cms/img/149559219946350066.png",
+        "goods": [
+          {
+            "goods_id": 9846,
+            "goods_name": "New Balance/NB男鞋新百伦574系列女鞋 复古鞋经典款休闲鞋减震缓冲运动跑步鞋ML574OHT",
+            "goods_price": 398,
+            "goods_big_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070183617-000000010108133673_2_800x800.jpg",
+            "goods_small_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070183617-000000010108133673_2_400x400.jpg",
+            "cat_id": 1100
+          },
+          {
+            "goods_id": 45942,
+            "goods_name": "松下/Panasonic指纹锁智能电子锁V-M680F/L 家用防盗门锁密码锁",
+            "goods_price": 0,
+            "goods_big_logo": "http://image3.suning.cn/uimg/b2c/newcatentries/0070070853-000000000826095640_1_800x800.jpg",
+            "goods_small_logo": "http://image3.suning.cn/uimg/b2c/newcatentries/0070070853-000000000826095640_1_400x400.jpg",
+            "cat_id": 643
+          },
+          {
+            "goods_id": 14335,
+            "goods_name": "古今3/4上薄下厚四排扣文胸内衣0F871",
+            "goods_price": 0,
+            "goods_big_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070121854-000000000139487004_2_800x800.jpg",
+            "goods_small_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070121854-000000000139487004_2_400x400.jpg",
+            "cat_id": 1216
+          },
+          {
+            "goods_id": 7058,
+            "goods_name": "百宝力 李娜款 2016新款6只装网球包专业双肩背包",
+            "goods_price": 399,
+            "goods_big_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070177940-000000010047448537_2_800x800.jpg",
+            "goods_small_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070177940-000000010047448537_2_400x400.jpg",
+            "cat_id": 1055
+          }
+        ]
+      },
+      {
+        "group_img": "http://image1.suning.cn/uimg/cms/img/149559224478616126.png",
+        "goods": [
+          {
+            "goods_id": 6045,
+            "goods_name": "祖玛电动车72V电摩1000W改装踏板双人摩托车60V电动摩托车 电瓶车 祖玛96V超威电池电动自行车",
+            "goods_price": 2380,
+            "goods_big_logo": "http://image1.suning.cn/uimg/b2c/newcatentries/0070132737-000000000159232579_2_800x800.jpg",
+            "goods_small_logo": "http://image1.suning.cn/uimg/b2c/newcatentries/0070132737-000000000159232579_2_400x400.jpg",
+            "cat_id": 1041
+          },
+          {
+            "goods_id": 9627,
+            "goods_name": "Adidas/阿迪达斯 男帽女帽2017新款中性休闲遮阳棒球鸭舌帽|S98156",
+            "goods_price": 115,
+            "goods_big_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070158136-000000000697811528_2_800x800.jpg",
+            "goods_small_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070158136-000000000697811528_2_400x400.jpg",
+            "cat_id": 1097
+          },
+          {
+            "goods_id": 32451,
+            "goods_name": "TCL集成灶 自动清洗 双电机JC18A油烟机 抽油烟机 吸油烟机 燃气灶 消毒柜 集成灶厨房 烟灶套餐 天然气/液化气",
+            "goods_price": 5999,
+            "goods_big_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070066995-000000000128678825_1_800x800.jpg",
+            "goods_small_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070066995-000000000128678825_1_400x400.jpg",
+            "cat_id": 348
+          },
+          {
+            "goods_id": 223,
+            "goods_name": "淘尔杰棉绒加厚汽车车衣防晒四季大众宝马奥迪奔驰福特现代日产别克长城吉普奔腾传祺海马三菱铃木长安斯柯达雪佛兰专车专用车衣",
+            "goods_price": 89,
+            "goods_big_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070110574-000000000602985033_1_800x800.jpg",
+            "goods_small_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070110574-000000000602985033_1_400x400.jpg",
+            "cat_id": 1001
+          }
+        ]
+      },
+      {
+        "group_img": "http://image4.suning.cn/uimg/cms/img/149561081033317441.png",
+        "goods": [
+          {
+            "goods_id": 51052,
+            "goods_name": "奥迪双钻（AULDEY） 巨神战击队3 机器人系列-豪华版冲锋战击王 538310",
+            "goods_price": 246,
+            "goods_big_logo": "http://image3.suning.cn/uimg/b2c/newcatentries/0000000000-000000000179591671_2_800x800.jpg",
+            "goods_small_logo": "http://image3.suning.cn/uimg/b2c/newcatentries/0000000000-000000000179591671_2_400x400.jpg",
+            "cat_id": 796
+          },
+          {
+            "goods_id": 31870,
+            "goods_name": "万家乐小厨宝D6-S003B 储水式电热水器 6升 下出水",
+            "goods_price": 369,
+            "goods_big_logo": "http://image5.suning.cn/uimg/b2c/newcatentries/0070070320-000000000106503253_1_800x800.jpg",
+            "goods_small_logo": "http://image5.suning.cn/uimg/b2c/newcatentries/0070070320-000000000106503253_1_400x400.jpg",
+            "cat_id": 335
+          },
+          {
+            "goods_id": 50919,
+            "goods_name": "智恩堡 小猪佩奇儿童音乐玩具电子琴粉红猪佩琪女孩1初学者钢琴3早教6岁 WJ",
+            "goods_price": 248,
+            "goods_big_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070154344-000000010053625663_1_800x800.jpg",
+            "goods_small_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070154344-000000010053625663_1_400x400.jpg",
+            "cat_id": 788
+          },
+          {
+            "goods_id": 6225,
+            "goods_name": "菲胜骑FIQI8寸电动扭扭车双轮平衡车陈王漂移车体感车思维车带蓝牙音乐",
+            "goods_price": 785,
+            "goods_big_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070073377-000000000171046928_2_800x800.jpg",
+            "goods_small_logo": "http://image2.suning.cn/uimg/b2c/newcatentries/0070073377-000000000171046928_2_400x400.jpg",
+            "cat_id": 1044
+          }
+        ]
+      },
+      {
+        "group_img": "http://image4.suning.cn/uimg/cms/img/149559633905095702.png",
+        "goods": [
+          {
+            "goods_id": 33220,
+            "goods_name": "德亚（weidendort）全脂纯牛奶1Lx12盒整箱 德国进口",
+            "goods_price": 0,
+            "goods_big_logo": "http://image1.suning.cn/uimg/b2c/newcatentries/0000000000-000000000139280343_1_800x800.jpg",
+            "goods_small_logo": "http://image1.suning.cn/uimg/b2c/newcatentries/0000000000-000000000139280343_1_400x400.jpg",
+            "cat_id": 367
+          },
+          {
+            "goods_id": 44865,
+            "goods_name": "HIGOLD/悍高 精铜淋浴龙头浴缸龙头浴室淋浴开关冷热水龙头混水阀-预售 赫珀系列-花洒龙头602036",
+            "goods_price": 279,
+            "goods_big_logo": "http://image3.suning.cn/uimg/b2c/newcatentries/0070073158-000000000621394480_2_800x800.jpg",
+            "goods_small_logo": "http://image3.suning.cn/uimg/b2c/newcatentries/0070073158-000000000621394480_2_400x400.jpg",
+            "cat_id": 619
+          },
+          {
+            "goods_id": 41732,
+            "goods_name": "港德足疗机 足疗仪 脚底按摩器足部足底脚部加热家用全自动穴位揉捏按脚器 定时开关 677",
+            "goods_price": 299,
+            "goods_big_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070062570-000000000673436127_1_800x800.jpg",
+            "goods_small_logo": "http://image4.suning.cn/uimg/b2c/newcatentries/0070062570-000000000673436127_1_400x400.jpg",
+            "cat_id": 550
+          },
+          {
+            "goods_id": 6021,
+            "goods_name": "闪电客雪地车沙滩车铝合金大轮哈雷自行车",
+            "goods_price": 87,
+            "goods_big_logo": "http://image5.suning.cn/uimg/b2c/newcatentries/0070174784-000000000770499941_2_800x800.jpg",
+            "goods_small_logo": "http://image5.suning.cn/uimg/b2c/newcatentries/0070174784-000000000770499941_2_400x400.jpg",
+            "cat_id": 1040
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "msg": "获取成功",
+      "status": 200
+    }
+  }

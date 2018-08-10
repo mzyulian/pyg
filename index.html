@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/lib/mui/css/mui.min.css">
+    <link rel="stylesheet" href="/lib/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 头部 -->
+     <header class="pyg_header">
+            <div class="mui-input-row mui-search">
+                    <input type="search" class="mui-input-clear" placeholder="">
+             </div>     
+     </header>
+
+     <div class="pyg_content">
+     <!-- 轮播图 -->
+       <div class="index_slides">
+          <div class="mui-slider">
+          </div>
+       </div>
+      <!--导航栏 -->
+       <nav class="index_nav">
+       </nav>
+       <!-- 商品列表 -->
+       <div class="index_goodslist">
+            <!-- <div class="goods_ground">
+                <div class="goods_title">
+                  <img src="http://image4.suning.cn/uimg/cms/img/149559219946350066.png" alt="">
+                </div>
+                <ul class="goods_content">
+                  <li>
+                    <a href="javascript:;" class="goods_items">
+                      <img src="http://image2.suning.cn/uimg/b2c/newcatentries/0070183617-000000010108133673_2_400x400.jpg" alt="">
+                      <div class="goods_name">New Balance/NB男鞋新百伦574系列女鞋 复古鞋经典款休闲鞋减震缓冲运动跑步鞋ML574OHT</div>
+                      <div class="goods_price">￥398</div>
+                    </a>
+                    <a href="javascript:;" class="goods_like mui-btn mui-btn-primary mui-btn-outlined">看相识</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="goods_items">
+                      <img src="http://image2.suning.cn/uimg/b2c/newcatentries/0070183617-000000010108133673_2_400x400.jpg" alt="">
+                      <div class="goods_name">New Balance/NB男鞋新百伦574系列女鞋 复古鞋经典款休闲鞋减震缓冲运动跑步鞋ML574OHT</div>
+                      <div class="goods_price">￥398</div>
+                    </a>
+                    <a href="javascript:;" class="goods_like mui-btn mui-btn-primary mui-btn-outlined">看相识</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="goods_items">
+                      <img src="http://image2.suning.cn/uimg/b2c/newcatentries/0070183617-000000010108133673_2_400x400.jpg" alt="">
+                      <div class="goods_name">New Balance/NB男鞋新百伦574系列女鞋 复古鞋经典款休闲鞋减震缓冲运动跑步鞋ML574OHT</div>
+                      <div class="goods_price">￥398</div>
+                    </a>
+                    <a href="javascript:;" class="goods_like mui-btn mui-btn-primary mui-btn-outlined">看相识</a>
+                  </li>
+                </ul>
+            </div> -->
+       </div>
+     </div>
+     <!-- 底部 -->
+     <footer class="pyg_footer">
+       <a href="javascript:;">
+         <span class="fa fa-home"></span>
+         <span class="link_name">首页</span>
+       </a>
+       <a href="javascript:;">
+         <span class="fa fa fa-list-ul"></span>
+         <span class="link_name">分类</span>
+       </a>
+       <a href="javascript:;">
+         <span class="fa fa-shopping-cart"></span>
+         <span class="link_name">购物车</span>
+       </a>
+       <a href="javascript:;">
+         <span class="fa fa-user"></span>
+         <span class="link_name">我的</span>
+       </a>
+       
+     </footer>
+     <!-- 模板 -->
+     <!-- 轮播图模板 -->
+     <script type="aa/text" id="slideTmp">
+        <!-- 图片 -->
+      <div class="mui-slider-group mui-slider-loop">
+        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="{{data[data.length-1].image_src}}" /></a></div>
+        {{each data value index}}
+           <div class="mui-slider-item"><a href="#"><img src="{{value.image_src}}" /></a></div>
+        {{/each}}
+        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="{{data[0].image_src}}" /></a></div>
+      </div>
+      <!-- 索引器 -->
+      <div class="mui-slider-indicator">
+          {{each data value index}}
+             {{if index==0}}
+             <div class="mui-indicator mui-active"></div>
+             {{/if}}
+             {{if index!=0}}
+              <div class="mui-indicator"></div>           
+             {{/if}}
+           {{/each}}          
+      </div> 
+     </script>
+     <!-- nav导航模板 -->
+     <script type="text/html" id="catitems_tmp">
+          {{each arr value index}}       
+              <a href="javascript:;"><img src="{{value.image_src}}" alt=""></a>
+          {{/each}}  
+     </script>
+     <!-- 商品模板 -->
+     <script type="text/html" id="goodslist_tmp">
+      {{each data value index}}
+      <div class="goods_ground">
+        <div class="goods_title">
+          <img src="{{value.group_img}}" alt="">
+        </div>
+        <ul class="goods_content">
+          {{each value.goods value1 index1}}
+          <li>
+            <a href="javascript:;" class="goods_items">
+              <img src="{{value1.goods_small_logo}}" alt="">
+              <div class="goods_name">{{value1.goods_name}}</div>
+              <div class="goods_price">￥{{value1.cat_id}}</div>
+            </a>
+            <a href="javascript:;" class="goods_like mui-btn mui-btn-primary mui-btn-outlined">看相似</a>
+          </li>
+           {{/each}}
+        </ul>
+    </div>
+    {{/each}}
+     </script>
+
+</body>
+<script src="/lib/mui/js/mui.js"></script>
+<script src="/lib/arttemplate/template-web.js"></script>
+<script src="/lib/zepto/zepto.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/index.js"></script>
+</html>

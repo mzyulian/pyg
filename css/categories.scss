@@ -1,0 +1,19 @@
+ body{
+     line-height: normal;
+ }
+ .pyg_content{
+     display: flex;
+     overflow: hidden;
+     .left{
+        width: 1rem;
+        font-size: 0.22rem;
+        overflow: hidden;
+        background-color: yellowgreen;
+    }
+    .right{ 
+        flex: 1;
+       background-color: rebeccapurple;
+        overflow: scroll;
+       }
+ }
+

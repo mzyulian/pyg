@@ -1,0 +1,47 @@
+.index_nav{
+    display: flex;
+    a{
+        flex: 1;
+        padding: 20px 0px;
+        img{
+            width: 80%; 
+            margin:0 auto;
+        }
+    } 
+}
+//商品列表
+.index_goodslist{
+    padding: 0px 10px;
+    .goods_ground{
+        .goods_title{
+           margin-bottom: 5px;
+        }
+        .goods_content{
+            margin:0px;
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            /* 侧轴先两边 */
+            justify-content: space-between;
+            li{
+                width: 49%;
+                margin-bottom: 5px;
+                background-color: #fff;
+                .goods_name{
+                    color:black;
+                    font-size: 14px;
+                    height: 38px;
+                    overflow: hidden;
+                }
+                .goods_price{
+                    color:red;
+                }
+                .goods_like{
+                    width: 122px;
+                    display: block;
+                    margin:0 auto;
+                }
+            }
+        }
+    }
+}
