@@ -3,6 +3,7 @@ $(function(){
     function innit() { 
       setHtml()
       getData()
+      get_categories()
 
      }
      function getData(){
@@ -24,5 +25,10 @@ $(function(){
     window.onresize=function(){
         //window 下调测调用
         setHtml()
+    }
+    function get_categories(){
+        $.get("categories",function(res){
+            console.log(res);
+        },"json")
     }
 })
