@@ -1,0 +1,91 @@
+body {
+  padding-top: 90px;
+}
+
+.search_header {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: yellowgreen;
+}
+
+.nav {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  top: 45px;
+  left: 0;
+  background-color: rebeccapurple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.nav a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 33.33%;
+  text-align: center;
+}
+
+.pyg_content {
+  position: relative;
+  padding: 5px 5px 0px;
+}
+
+.pyg_content ul li {
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.pyg_content ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+
+.pyg_content ul li a .item_left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.pyg_content ul li a .item_left img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pyg_content ul li a .item_right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pyg_content ul li a .item_right .goods_name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pyg_content ul li a .item_right .goods_price {
+  color: red;
+}
+/*# sourceMappingURL=goods_list.css.map */

@@ -1,0 +1,65 @@
+body{
+    padding-top:90px; 
+}
+.search_header{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color: yellowgreen;
+} 
+.nav{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    top:45px;
+    left:0;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    a{
+        flex: 1;
+        width: 33.33%;
+        text-align: center;
+    }
+}
+//内容区
+.pyg_content{
+    position: relative;
+    padding:5px 5px 0px;
+    ul{
+        li{
+            background-color: #fff;
+            margin-bottom: 5px;
+          a{
+            display: flex;
+            font-size: 14px;
+            .item_left{
+                flex: 1;
+                img{
+                    width: 70%;
+                    margin:0 auto;
+                }
+            }
+            .item_right{
+                flex: 2;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .goods_name{
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                .goods_price{
+                    color:red;
+                }
+            }
+          }
+
+        }
+    }
+}

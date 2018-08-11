@@ -6,14 +6,54 @@
      overflow: hidden;
      .left{
         width: 1rem;
-        font-size: 0.22rem;
         overflow: hidden;
-        background-color: yellowgreen;
+        li{
+            text-align: center;
+            font-size: 0.16rem; 
+            padding:0.05rem 0;
+        }
+        .active{
+            background-color: #fff;
+            border-left:5px solid #00a;
+        }
     }
     .right{ 
-        flex: 1;
-       background-color: rebeccapurple;
-        overflow: scroll;
+        flex: 1; 
+        overflow: hidden;
+        background-color: #fff;
+        .goods_list{
+            .goods_title{
+                display: flex;
+                padding-right: 0.05rem;
+                justify-content: space-between;
+                span:nth-child(1){
+                    font-size: 0.16rem;
+                    color: #00b1ff;
+                    padding:0.10rem;
+                }
+                span:nth-child(2){
+                   height: 1px;
+                   flex: 1;
+                   background-color: #666;
+                   align-self: center;
+                }
+            }
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width: 33%;
+                    text-align: center;
+                    font-size: 0.16rem;
+                    img{
+                        width: 60%;
+                    }
+                    .goods_name{
+                        color:black;
+                    }
+                }
+            }
+        }
        }
  }
 
