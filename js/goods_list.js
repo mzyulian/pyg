@@ -2,7 +2,7 @@ $(function () {
     //查询的关键子
     var jqueryMsg={
         query:"",
-        cid:getValue("cid"),
+        cid:$.getUrlvalue("cid"),
         pagenum:1, //页数索引
         pagesize:6  //每一页的个数
     }
@@ -10,6 +10,7 @@ $(function () {
     var totalPage=1;
     init()
     function init() { 
+        getUrl_details()
         mui.init({
             pullRefresh : {
               container:".pyg_content",//下拉刷新容器标识，querySelector能定位的css选择器均可，比如：id、.class等
@@ -59,12 +60,12 @@ $(function () {
             }
           });
      }
-    // 根据url上的key来获取值
-    function getValue(name) {
-            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-            var r = window.location.search.substr(1).match(reg);
-            if (r != null) return decodeURI(r[2]);
-            return null;
+     //给内容下面的a标签绑定跳转，再mui里a标签的默认跳转行为被阻住了
+     function getUrl_details(){
+         $(".pyg_content").on("tap","a",function(){
+             var href=this.href;
+             location.href=href;
+         })
      }
     function search(callback){
         //发送请求

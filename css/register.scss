@@ -1,0 +1,27 @@
+ .pyg_content{
+     .reg_form{
+         input{font-size: 14px;}
+         padding:10px 5px 0;
+         .mui-button-row{
+             height: auto;
+             padding-top:10px;
+             display: flex;
+             background-color: #efeff4;
+             button{
+                 flex: 1;
+                 width: auto;
+                 padding: 15px 0;
+             }
+         }
+         .mui-input-row{
+             position: relative;
+             .code_btn{
+                 position: absolute;
+                 right:5px;
+                 top:0; 
+                 width: auto;
+             }
+         }
+     }
+     
+ }

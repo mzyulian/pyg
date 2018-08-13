@@ -1,5 +1,4 @@
 $(function () {
-
     var BaseUrl=" http://api.pyg.ak48.xyz/";
     //导入模板变量
     template.defaults.imports.iconUrl = BaseUrl;
@@ -26,6 +25,32 @@ $(function () {
         $('body').removeClass('wait')
       }
     }
-
+    //给zepto拓展方法,给$拓展
+    $.extend($,{
+      //获取url地址栏的参数
+      getUrlvalue:function (name) { 
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return decodeURI(r[2]);
+        return null;
+       },
+       //拓展一个判断手机号码的正则
+       checkPhone: function (phone) {
+         if (!(/^1[34578]\d{9}$/.test(phone))) {
+           return false;
+         } else {
+           return true;
+         }
+       },
+       //拓展一个判断邮箱的正则
+       checkEmail: function (myemail) {
+         var myReg = /^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|net|org)$/;
+         if (myReg.test(myemail)) {
+           return true;
+         } else {
+           return false;
+         }
+       }
+    })
 
   })

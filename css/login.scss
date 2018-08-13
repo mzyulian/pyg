@@ -1,0 +1,21 @@
+  .pyg_content{
+      padding-top:10px;
+      input{
+          font-size: 14px;
+      }
+      .mui-button-row{
+          background-color: #efeff4;
+          padding: 15px 0;
+          height: 100%;
+          button{
+            //   width: auto;
+            //   width: 100%;
+              width: -webkit-fill-available;
+              padding:20px 0;
+              font-size: 18px;
+          }
+          button:nth-child(1){
+              margin-bottom: 10px;
+          }
+      }
+  }

@@ -7,23 +7,33 @@
     <link rel="stylesheet" href="/lib/mui/css/mui.min.css">
     <link rel="stylesheet" href="/lib/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/goods_list.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <title>pyg登陆</title>
 </head>
 <body>
-    <!-- 头部搜索框 -->
-    <div class="search_header"></div>
-    <!-- 头部刷选 -->
-    <div class="nav">
-        <a href="javascript:;">综合</a>
-        <a href="javascript:;">销量</a>
-        <a href="javascript:;">促销</a>
-    </div>
-    <div class="pyg_content">
-        <div>
-            <ul>
-            </ul>
-        </div>
+     <!-- 头部 -->
+     <header id="header" class="mui-bar mui-bar-nav">
+		<h1 class="mui-title">登陆</h1>
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    </header>
+
+     <div class="pyg_content">
+       <div class="reg_form">
+            <form class="mui-input-group">
+                    <div class="mui-input-row">
+                        <label>手机</label>
+                    <input type="text"  name="mobile" class="mui-input-clear" placeholder="请输入手机号">
+                    </div>
+                    <div class="mui-input-row">
+                        <label>密码</label>
+                        <input type="password" name="pwd" class="mui-input-password" placeholder="请输入密码">
+                    </div>  
+                    <div class="mui-button-row">
+                            <button type="button" class="mui-btn mui-btn-primary" id="login_btn">登陆</button>
+                            <button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">快速注册</button>
+                    </div>
+            </form>
+       </div>
      </div>
      <!-- 底部 -->
      <footer class="pyg_footer">
@@ -46,25 +56,12 @@
        
      </footer>
      <!-- 模板 -->
-     <script type="text/html" id="goods_tmp">
-        {{each data value index}}
-        <li>
-                <a href="/pages/goods_details.html?goods_id={{value.goods_id}}">
-                       <div class="item_left">
-                               <img src="{{value.goods_small_logo}}" alt="">
-                       </div>
-                       <div class="item_right">
-                            <div class="goods_name">{{value.goods_name}}</div>   
-                            <div class="goods_price">¥{{value.goods_price}}</div>
-                       </div>
-                </a>
-        </li>
-        {{/each}}
-     </script>
+ 
+
 </body>
 <script src="/lib/mui/js/mui.js"></script>
 <script src="/lib/arttemplate/template-web.js"></script>
 <script src="/lib/zepto/zepto.js"></script>
 <script src="/js/common.js"></script>
-<script src="/js/goods_list.js"></script>
+<script src="/js/login.js"></script>
 </html>

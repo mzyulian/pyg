@@ -1,0 +1,24 @@
+.pyg_content {
+  padding-top: 10px;
+}
+
+.pyg_content input {
+  font-size: 14px;
+}
+
+.pyg_content .mui-button-row {
+  background-color: #efeff4;
+  padding: 15px 0;
+  height: 100%;
+}
+
+.pyg_content .mui-button-row button {
+  width: -webkit-fill-available;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.pyg_content .mui-button-row button:nth-child(1) {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=login.css.map */
