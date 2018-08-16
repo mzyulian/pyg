@@ -30,7 +30,7 @@ $(function () {
     //商品列表
     function getGoodslist(){
        $.get("home/goodslist",function (res) { 
-        //    console.log(res);
+           console.log(res);
            var html=template('goodslist_tmp',{"data":res.data})
            $('.index_goodslist').html(html);
         },"json")   

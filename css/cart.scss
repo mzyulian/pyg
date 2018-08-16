@@ -1,0 +1,131 @@
+  body{
+      display: none;
+  }
+  #delete_btn{
+      display: none;
+  }
+  .pyg_content{
+      padding:68px 10px 0px;
+      .address{
+          .address_title{
+              font-size: 14px;
+              color: #8f8f94;
+          }
+          .address_content{
+              padding: 10px 0px;
+              background-color: #fff;
+              display: flex;
+              .address_map{
+                  flex: 1;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  span{
+                      font-size: 30px;
+                      color:#8f8f94;
+                  }
+              }
+              .msg{
+                  flex: 5;
+                  p{
+                      margin:0;
+                  }
+                  p:nth-child(1){
+                      font-size: 16px;
+                      color:black;
+                      margin-bottom: 8px;
+                  }
+              }
+          }
+      }
+      //订单1
+      .indent{
+          padding-top: 36px;
+         .indent_title{
+             font-size: 14px;
+             color: #8f8f94;
+         }
+         .indent_content{
+             padding: 15px 15px;
+             background-color: #fff;
+             display: flex;
+             .indent_price{
+                 flex: 1;
+             }
+             .mark_indent{
+                 text-align: right;
+                 flex: 1;
+             }
+         }
+      }
+      //订单详情
+      .indent_details{
+          padding-top:36px;
+          .indent_details_title{
+              color:#8f8f94;
+              font-size: 14px;
+          }
+          ul{
+              li{
+                  padding: 10px 5px;
+                  margin-bottom: 10px;
+                  background-color: #fff;
+                  display: flex;
+                  align-items: center;
+                  .check_goods{
+                      flex: 1;
+                      display: none;
+                    input{
+                        position: static;
+                    }
+                  }     
+                  .goods_img{
+                      flex: 1;
+                      img{
+                           width: 70%;
+                          margin:0 auto;
+                      }
+                  }
+                  .goods_content{
+                      flex: 3;
+                      .goods_name{
+                          font-size: 14px;
+                          color:#8f8f94;
+                      }
+                  }
+                 .goods_name {
+                    display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/ 
+                    overflow: hidden; 
+                    white-space: normal !important; 
+                    text-overflow: ellipsis; 
+                    word-wrap: break-word; 
+                    -webkit-line-clamp: 2; /*限制在一个块元素显示的文本的行数*/ 
+                    -webkit-box-orient: vertical; /*设置或检索伸缩盒对象的子元素的排列方式*/ 
+                  }
+                  .goods_price{
+                      display: flex;
+                      align-items: center;
+                      span{
+                          flex: 1;
+                          color:red;
+                      }
+                      .mui-numbox{
+                          flex: 1;
+                          display: none;
+                      }
+                  }
+              }
+          }
+      }
+  }
+  #pyg_body.toggle_class{
+    #delete_btn{
+        display: block;
+    }
+     .check_goods{
+         display: flex;
+     }
+     .mui-numbox{
+        display: flex;
+     }
+  }

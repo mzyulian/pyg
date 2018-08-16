@@ -50,7 +50,21 @@ $(function () {
          } else {
            return false;
          }
-       }
+       },
+       //拓展一个判断本地的永久存储中是否有userinfo,来判断是否有登陆
+       checkLogin:function () { 
+         return localStorage.getItem("userinfo");
+        },
+       //拓展一个返回本地永久存储中的token值得方法，存在返回token，没有返回一个"" 
+       token:function () { 
+         var token;
+         if(localStorage.getItem("userinfo")){
+           token= JSON.parse(localStorage.getItem("userinfo")).token;
+         }else{
+           token="";
+         }
+         return token;
+        }
     })
 
   })

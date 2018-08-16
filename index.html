@@ -72,7 +72,7 @@
          <span class="fa fa fa-list-ul"></span>
          <span class="link_name">分类</span>
        </a>
-       <a href="javascript:;">
+       <a href="/pages/cart.html">
          <span class="fa fa-shopping-cart"></span>
          <span class="link_name">购物车</span>
        </a>
@@ -121,7 +121,7 @@
         <ul class="goods_content">
           {{each value.goods value1 index1}}
           <li>
-            <a href="javascript:;" class="goods_items">
+            <a href="/pages/goods_details.html?goods_id={{value1.goods_id}}" class="goods_items">
               <img src="{{value1.goods_small_logo}}" alt="">
               <div class="goods_name">{{value1.goods_name}}</div>
               <div class="goods_price">￥{{value1.cat_id}}</div>

@@ -1,0 +1,198 @@
+@charset "UTF-8";
+body {
+  display: none;
+}
+
+#delete_btn {
+  display: none;
+}
+
+.pyg_content {
+  padding: 68px 10px 0px;
+}
+
+.pyg_content .address .address_title {
+  font-size: 14px;
+  color: #8f8f94;
+}
+
+.pyg_content .address .address_content {
+  padding: 10px 0px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pyg_content .address .address_content .address_map {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_content .address .address_content .address_map span {
+  font-size: 30px;
+  color: #8f8f94;
+}
+
+.pyg_content .address .address_content .msg {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.pyg_content .address .address_content .msg p {
+  margin: 0;
+}
+
+.pyg_content .address .address_content .msg p:nth-child(1) {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.pyg_content .indent {
+  padding-top: 36px;
+}
+
+.pyg_content .indent .indent_title {
+  font-size: 14px;
+  color: #8f8f94;
+}
+
+.pyg_content .indent .indent_content {
+  padding: 15px 15px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pyg_content .indent .indent_content .indent_price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.pyg_content .indent .indent_content .mark_indent {
+  text-align: right;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.pyg_content .indent_details {
+  padding-top: 36px;
+}
+
+.pyg_content .indent_details .indent_details_title {
+  color: #8f8f94;
+  font-size: 14px;
+}
+
+.pyg_content .indent_details ul li {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_content .indent_details ul li .check_goods {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: none;
+}
+
+.pyg_content .indent_details ul li .check_goods input {
+  position: static;
+}
+
+.pyg_content .indent_details ul li .goods_img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.pyg_content .indent_details ul li .goods_img img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pyg_content .indent_details ul li .goods_content {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.pyg_content .indent_details ul li .goods_content .goods_name {
+  font-size: 14px;
+  color: #8f8f94;
+}
+
+.pyg_content .indent_details ul li .goods_name {
+  display: -webkit-box;
+  /*将对象作为弹性伸缩盒子模型显示*/
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  /*限制在一个块元素显示的文本的行数*/
+  -webkit-box-orient: vertical;
+  /*设置或检索伸缩盒对象的子元素的排列方式*/
+}
+
+.pyg_content .indent_details ul li .goods_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_content .indent_details ul li .goods_price span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: red;
+}
+
+.pyg_content .indent_details ul li .goods_price .mui-numbox {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: none;
+}
+
+#pyg_body.toggle_class #delete_btn {
+  display: block;
+}
+
+#pyg_body.toggle_class .check_goods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#pyg_body.toggle_class .mui-numbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=cart.css.map */

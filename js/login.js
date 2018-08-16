@@ -24,8 +24,18 @@ $(function () {
                 console.log(res);
                 if(res.meta.status==200){
                     mui.toast(res.meta.msg);
+                    //登陆成功，设置全局的token(token ==>字符串，随请求头随ajax请求到后台，比较cookie更安全，设置到浏览器的本地永久存储)
+                    //存的是对象，复杂类型，先转为字符串
+                    localStorage.setItem("userinfo",JSON.stringify(res.data))
+                    // debugger
                     setTimeout(function () { 
-                        location.href="/index.html"
+                        //判断会话存储是否有跳转过来的页面，有的话登陆成功后跳转到原来的页面,没有的话跳到首页
+                        var pages=sessionStorage.getItem("pages")
+                        if(pages){
+                          location.href=pages;
+                        }else{
+                           location.href="/index.html"
+                        }
                      },1000)
                 }else{
                     mui.toast(res.meta.msg);
