@@ -37,8 +37,8 @@
              <div class="indent_title">订单</div>
              <div class="indent_content">
                  <div class="indent_price">
-                     <span>总价:</span>
-                     <span id="total_price">￥1000</span>
+                     <span>总价:￥</span>
+                     <span id="total_price">1000</span>
                  </div>
                  <div class="mark_indent">生成订单</div>
              </div>
@@ -47,27 +47,6 @@
          <div class="indent_details">
              <div class="indent_details_title">订单详情</div>
              <ul>
-                 <li>
-                     <div class="check_goods">
-                        <div class="mui-input-row mui-checkbox">
-                            <input name="checkbox1" value="Item 1" type="checkbox">
-                        </div>
-                     </div>
-                     <div class="goods_img"><img src="http://image4.suning.cn/uimg/b2c/newcatentries/0070065412-000000000105275997_1_400x400.jpg" alt=""></div>
-                     <div class="goods_content">
-                        <div class="goods_name class="mui-ellipsis-2"">品典卫浴 整体豪华淋浴房 全方位出水 智能电脑控制120x80 9606</div>
-                        <div class="goods_price">
-                            <span>￥3000</span>
-                             <!-- 数字输入框 -->
-                            <div class="mui-numbox" data-numbox-step='1' data-numbox-min='1' data-numbox-max='100'>
-                                    <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
-                                    <input class="mui-numbox-input" type="number" />
-                                    <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
-                            </div>
-                        </div>
-                    
-                     </div>
-                 </li>
              </ul>
          </div>
      </div>
@@ -81,11 +60,11 @@
             <span class="fa fa fa-list-ul"></span>
             <span class="link_name">分类</span>
         </a>
-        <a href="javascript:;">
+        <a href="/pages/cart.html">
             <span class="fa fa-shopping-cart"></span>
             <span class="link_name">购物车</span>
         </a>
-        <a href="javascript:;">
+        <a href="/pages/me.html">
             <span class="fa fa-user"></span>
             <span class="link_name">我的</span>
         </a>
@@ -106,7 +85,7 @@
                <div class="goods_price">
                    <span>￥{{value.goods_price}}</span>
                     <!-- 数字输入框 -->
-                   <div class="mui-numbox" data-numbox-step='1' data-numbox-min='0' data-numbox-max='{{value.goods_number}}'>
+                   <div class="mui-numbox" data-numbox-step='1' data-numbox-min='1' data-numbox-max='{{value.goods_number}}'>
                            <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
                            <input class="mui-numbox-input" type="number" value="{{value.amount}}" />
                            <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>

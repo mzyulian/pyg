@@ -64,7 +64,28 @@ $(function () {
            token="";
          }
          return token;
-        }
-    })
+        },
+        //拓展一个将当前页面放到本地会话存储的方法
+        setpage:function(){
+          sessionStorage.setItem("pages",location.href);
+        },
+        //拓展一個將頁面的url从会话存储取出的方法
+        getpage:function () { 
+          return sessionStorage.getItem("pages");
+         },
+        //拓展一个将用户信息存进本地永久存储的方法 
+        setUser:function (obj) { 
+          localStorage.setItem("userinfo",JSON.stringify(obj))
+         },
+        //拓展一个将用户信息从本地永久储存取出的方法
+        getUser:function () { 
+          return localStorage.getItem("userinfo")? JSON.parse(localStorage.getItem("userinfo")):false
+         },
 
+        //拓展一个清除本地永久存储的方法
+        removeUser:function () { 
+          localStorage.removeItem("userinfo")
+         }
+
+    })
   })

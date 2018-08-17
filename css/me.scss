@@ -1,0 +1,112 @@
+ body{
+     display: none;
+ }
+ .pyg_content{
+     padding: 20px 10px 0px;
+     .user{
+         margin-bottom: 10px;
+         padding: 10px 0px;
+         border:1px solid #ccc;
+         background-color: #fff;
+         display: flex;
+         align-items: center;
+         .fa{
+           flex: 1;
+           font-size: 30px;
+           text-align: center;
+         }
+         .user_msg{ 
+           flex: 4;
+           p{
+              margin-bottom: 0px;
+           }
+         }
+     }
+     .order_form{
+         margin-bottom: 10px;
+         border:1px solid #ccc;
+         background-color: #fff;
+         .order_form_title{
+             padding: 10px;
+             border-bottom: 1px solid #ccc;
+         }
+         .order_form_content{
+             display: flex;
+             padding: 10px 0px;
+             
+             a{
+                 flex:1;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 p{
+                     margin-bottom: 0px;
+                     color:#007aff;
+                 }
+             }
+         }
+         
+     }
+     .password_tool{
+         margin-bottom: 10px;
+         border:1px solid #ccc;
+         padding-left:20px;
+         background-color: #fff;
+         .fa{
+            color:#8f8f94;
+            font-weight: 400;
+            float:right;
+        }
+         .login_pwd{ 
+            padding:10px 0px;
+            padding-right: 20px;
+            
+         }
+         .pwd_tool{
+             border-top:1px solid #ccc;
+             border-bottom: 1px solid #ccc;
+             padding:10px 0px;
+             padding-right: 20px;
+         }
+         .address{
+            padding:10px 0px;
+            padding-right: 20px;
+         }
+     }
+     .about{
+         background-color: #fff;
+         border-bottom: 1px solid #ccc;
+         margin-bottom: 10px;
+         >div{
+             padding: 10px 20px 10px 10px;
+         }
+         .fa{
+             color:#666;
+         }
+         .contact{
+             span{
+                 float:right;
+             }
+         }
+         .feedback{
+             border-top:1px solid #ccc;
+             border-bottom: 1px solid #ccc;
+             span{
+                float:right;
+            }
+         }
+         .ab_we{
+            span{
+                float:right;
+            }
+         }
+     }
+     .login_out{
+         button{
+             width: 100%;
+             padding:10px 0px;
+             font-size: 18px;
+         }
+     }
+ }

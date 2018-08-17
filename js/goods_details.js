@@ -31,7 +31,8 @@ $(function(){
              //判断本地的永久存储是否存有userinfo,没有的话会话存储记录下当前页然后跳转到登陆页面
              if(!$.checkLogin()){
                  mui.toast("未登陆")
-               sessionStorage.setItem("pages",location.href);
+                 //會話存儲當前頁面
+                 $.setpage();
                setTimeout(function () { 
                    location.href="/pages/login.html"
                 },1000)
@@ -65,7 +66,7 @@ $(function(){
                      //无效的token,表示没有登陆，会话存储当前的页面，然后跳转到登陆页
                     if (res.meta.status==401){
                         mui.toast("未登录");
-                       sessionStorage.setItem("pages",location.href)
+                       $.setpage();
                        setTimeout(function(){
                              //跳转到登录页
                              location.href="/pages/login.html";
@@ -78,11 +79,10 @@ $(function(){
                               if(msg.index==1){
                                 //不跳转     
                               }else if(msg.index==0){
-                                  location.href="/pages.cart.html"
+                                  location.href="/pages/cart.html"
                               }
                            })
-                     
-                        // location.href="/pages/cart.html";
+                                          // location.href="/pages/cart.html";
                     }
                  }
              })

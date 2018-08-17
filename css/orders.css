@@ -1,0 +1,32 @@
+body {
+  display: none;
+}
+
+.pyg_content .main_content .pyg_tab_content #item1 {
+  padding: 20px 20px 0px;
+}
+
+.pyg_content .main_content .pyg_tab_content #item1 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.pyg_content .main_content .pyg_tab_content #item1 ul li .ol {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  overflow: hidden;
+}
+
+.pyg_content .main_content .pyg_tab_content #item1 ul li .goods_price {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  color: red;
+  text-align: right;
+}
+/*# sourceMappingURL=orders.css.map */

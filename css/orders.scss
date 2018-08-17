@@ -1,0 +1,29 @@
+ body{
+     display: none;
+ }
+ .pyg_content{
+     .main_content{
+         .pyg_tab_content{
+             #item1{
+                 padding: 20px 20px 0px;
+                 ul{
+                     li{
+                         display: flex;
+                         background-color: #fff;
+                         padding: 10px;
+                         margin-bottom: 5px;
+                         .ol{
+                             flex: 3;
+                             overflow: hidden;
+                         }
+                         .goods_price{
+                             flex: 2;
+                             color: red;
+                             text-align: right;
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
